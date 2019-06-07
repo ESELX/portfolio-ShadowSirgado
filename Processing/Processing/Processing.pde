@@ -2,11 +2,12 @@ void setup() {
   size(900, 800);
   noSmooth();
   fill(126);
-  background(102);
+  background(255,0,0);
 }
 
 void draw() {
   if (mousePressed) {
+    
     stroke(255);
   } else {
      line(mouseX-66, mouseY, mouseX+66, mouseY);
